@@ -1,0 +1,24 @@
+{
+  "name": "bs-testp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "bootstrap": "5.0.0-beta1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1",
+    "sass": "^1.32.4",
+    "gh-pages": "^2.2.0"
+  },
+  "keywords": [],
+  "homepage": "https://georgius1024.github.io/special-couscous",
+  "publicPath": "/special-couscous/"
+}

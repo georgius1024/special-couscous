@@ -1,0 +1,55 @@
+$primary: #0093ff;
+$body-bg: #fff;
+$body-color: #223639;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 9;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;
+  .sidebar-left {
+    background-color: #ffffff;
+    min-width: 206px;
+    border-right: 1px solid #cccccc;
+    .list-group {
+      .active {
+        background-color: #f1f3f3;
+        color: #000;
+      }
+    }
+
+    .logo {
+      height: 70px;
+      background: url(/assets/logo.png);
+      background-repeat: no-repeat;
+      background-size: 150px;
+      background-position: center center;
+    }
+    svg {
+      margin-right: 6px;
+    }
+  }
+  .contentful {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 206px);
+    header {
+      height: 240px;
+      background: url(/assets/fancy-background.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    main {
+      margin-top: -56px;
+    }
+  }
+}
+
