@@ -10644,7 +10644,7 @@ body {
 }
 .main .sidebar-left .logo {
   height: 70px;
-  background: url(/logo.e9a9c890.png);
+  background: url(logo.e9a9c890.png);
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: center center;
@@ -10659,7 +10659,7 @@ body {
 }
 .main .contentful header {
   height: 240px;
-  background: url(/fancy-background.a02db99f.png);
+  background: url(fancy-background.a02db99f.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10667,4 +10667,4 @@ body {
   margin-top: -56px;
 }
 
-/*# sourceMappingURL=/styles.962e011e.css.map */
+/*# sourceMappingURL=styles.962e011e.css.map */
